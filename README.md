@@ -9,3 +9,6 @@
 - 在“application/config/config.php”文件中配置域名($config['base_url']).
 - 建个数据库,导入数据库fm.sql
 
+# 在线demo
+
+- <a href="http://lanqy.info/">http://lanqy.info/</a>
