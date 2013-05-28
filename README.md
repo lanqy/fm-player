@@ -7,7 +7,7 @@
 
 - 在“application/config/database.php”文件中修改数据库配置.
 - 在“application/config/config.php”文件中配置域名($config['base_url']).
-- 在“js/fm.js”文件中找到http://lanqy.info并替换为你的域名.
+- 在“js/fm.js”文件中找到 http://lanqy.info 并替换为你的域名.
 - 建个数据库,导入数据库fm.sql.
 
 # 在线demo
