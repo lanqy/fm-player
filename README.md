@@ -1,11 +1,11 @@
-# Ò»¸öÏàµ±¼òµ¥µÄÒôÀÖ²¥·ÅÆ÷
+# ä¸€ä¸ªå¾ˆç®€å•çš„éŸ³ä¹æ’­æ”¾å™¨
 
-»ùÓÚ jPlayer and codeigniter ¹¹½¨.
+åŸºäº jPlayer å’Œ codeigniter æ„å»º.
 
 
-# °²×°
+# å®‰è£…
 
-- ÔÚ¡°application/config/database.php¡±ÎÄ¼şÖĞĞŞ¸ÄÊı¾İ¿âÅäÖÃ.
-- ÔÚ¡°application/config/config.php¡±ÎÄ¼şÖĞÅäÖÃÓòÃû($config['base_url']).
-- ½¨¸öÊı¾İ¿â,µ¼ÈëÊı¾İ¿âfm.sql
+- åœ¨â€œapplication/config/database.phpâ€æ–‡ä»¶ä¸­ä¿®æ”¹æ•°æ®åº“é…ç½®.
+- åœ¨â€œapplication/config/config.phpâ€æ–‡ä»¶ä¸­é…ç½®åŸŸå($config['base_url']).
+- å»ºä¸ªæ•°æ®åº“,å¯¼å…¥æ•°æ®åº“fm.sql
 
