@@ -5,8 +5,11 @@
         <meta charset="utf-8" />
         <title><?php echo $song_name;?>----<?php echo $artist;?></title>
         <link href="<?php echo base_url();?>css/fm.css" rel="stylesheet" />
-	<script data-main="js/main" src="js/require.js"></script>
-        <script type="text/javascript">
+		<script src="<?php echo base_url();?>js/jquery.js"></script>
+		<script src="<?php echo base_url();?>js/jplayer.js"></script>
+		<script src="<?php echo base_url();?>js/fm.js"></script>
+		<script src="<?php echo base_url();?>js/initPlayer.js"></script>
+        <script>
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-17035560-2']);
             _gaq.push(['_trackPageview']);
@@ -65,7 +68,6 @@
             <a href="http://weibo.com/279510455" target="_blank">Create by lanqy</a>
             <b title="关闭">x</b>
         </span>
-        <canvas id="canvas"></canvas>
     </body>
 
 </html>

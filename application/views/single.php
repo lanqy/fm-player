@@ -7,25 +7,7 @@
 		<script src="<?php echo base_url();?>js/jquery.js"></script>
 		<script src="<?php echo base_url();?>js/jplayer.js"></script>
 		<script src="<?php echo base_url();?>js/fm.js"></script>
-		<script>
-				$(function () {
-				    var s = $("#init-song").val();
-				    fm.init(s);
-				    var contact = Cookie.read("contact");
-				    if (contact == null) {
-				        $(".create_by").show();
-				    } else {
-				        $(".create_by").hide()
-				    }
-
-				    $(".create_by b").click(function () {
-				        Cookie.create("contact", "hide", 7);
-				        $(".create_by").hide()
-				    })
-
-				});
-		</script>
-		<script src="<?php echo base_url();?>js/config.js"></script>
+		<script src="<?php echo base_url();?>js/initPlayer.js"></script>
 	</head>
 	<body>
 		<div class="music" id="music">
