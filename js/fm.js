@@ -47,7 +47,6 @@ var fm = {
                     mp3: href
                 }).jPlayer("play");
                 fm.changePlayerSkin();
-                fm.running();
             }
         });
     },
@@ -84,27 +83,6 @@ var fm = {
         $(".pause").css("background", c);
         $(".volume-value").css("background", c);
 
-    },
-
-    running: function () {
-        var w = $(window).width() - 15,
-            h = $(window).height() - 15;
-        var r, g, b, x, y, color, filled = true,
-            radius = 1;
-        for (var i = 0; i < 100; i++) {
-            r = Math.floor(Math.random() * (254));
-            g = Math.floor(Math.random() * (254));
-            b = Math.floor(Math.random() * (254));
-            x = Math.floor(Math.random() * (w));
-            y = Math.floor(Math.random() * (h));
-            color = "rgba(" + r + ", " + g + ", " + b + ", 0.5)";
-            jc.circle(x, y, radius, color, filled).animate({
-                radius: 100,
-                opacity: 0
-            }, 3000, function () {
-                this.del();
-            });
-        }
     }
 };
 
